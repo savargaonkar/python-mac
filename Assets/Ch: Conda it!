@@ -1,0 +1,14 @@
+A very simple way to quickly get Python and all the other stuff that it needs to work is to get something called Anaconda. 
+
+All you need to do is download the package installer for macOS here. 
+
+ 
+
+Install and run it with the basic guide helping you all the way. Anaconda is great because it's so simple and hardly requires any configuration from the user.
+
+Plus, the distribution comes with a ton of great packages and has a super helpful documentation. So, if you get conda, you can Python in a jiffy. No more hassles.
+
+After installing Anaconda, dive into the Python world by clicking Anaconda Navigator icon in your Launchpand or you can run the following command in your terminal:
+
+anaconda-navigator
+
