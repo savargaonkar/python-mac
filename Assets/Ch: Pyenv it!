@@ -1,0 +1,34 @@
+ Pyenv is a simple Python version manager that can manage and install different versions of Python. But STOP!!
+
+Did you get homebrew yet? Pynev is installed using homebrew. So first, we must install pyenv using homebrew:
+
+$ brew install pyenv
+Also remember, to upgrade pyenv in the future, use upgrade instead of install. After installing, add pyenv init to your shell to enable shims and autocompletion.
+
+$ echo 'eval "$(pyenv init -)"' >> ~/Projects/config/env.sh
+Restart your shell so the path changes take effect. You can now begin using pyenv.
+
+$ exec $SHELL
+ 
+Install and use multiple Python versions
+
+First, we need to list the all available versions of Python, including Anaconda, Jython, pypy, and stackless in our system. Use the following command to list them all:
+
+$ pyenv install --list
+Now, that you have a list you can decide which versions of Python you want to install. You can install the desired versions with the following command:
+
+$ pyenv install 3.5.2
+$ pyenv install 2.7.12
+Last step before use the desired version, now that you have installed the latest and required version we need to set the priority of the version to use. The global command allows us to set global version(s) of Python to be used in all shells. Thus, if we want to use version 2.7.12 over version 3.5.2 following command will do the trick:
+
+$ pyenv global 2.7.12 3.5.2
+$ pyenv rehash
+Remember, the leading version always takes priority so in our case v2.7.12 is going to be the default.
+
+ All installed Python versions can be located in ~/.pyenv/versions. Alternatively, you can run:
+
+$ pyenv versions
+  system (set by /Users/your_account/.pyenv/version)
+* 2.7.12
+* 3.5.2
+This shows an asterisk * next to the currently active version.
