@@ -1,0 +1,3 @@
+It might come as a pleasant surprise to you, but your Mac already has Python! macOS, like Linux, ships with Python installed by default. 
+But you don't want to mess with the system Python (some system tools rely on it and it's usually older etc..), so we'll install our own version.
+There are two ways to install Python, (1) Homebrew and (2) Pyenv. For the advanced users, if you want to get multiple versions of Python (e.g. 2, 3, and anaconda) then I recommend you using pyenv.
