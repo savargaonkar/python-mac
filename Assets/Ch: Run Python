@@ -1,0 +1,91 @@
+Okay, here's the fun part!
+
+Now that you have a Python environment setup. Get ready to jump into the Python world.
+
+The easiest way to load Python on your system is to go the Terminal window and run the following command:
+
+Python
+
+The window should throw a summary of the Python version you are running and a bunch of other details for help, copyright and credits etc.
+
+You're set. 
+
+Just start working your way up by welcoming yourself to the Python world:
+
+print("Hello world!")
+
+But...! Yes, there is a but! If you want more than basic flavor of Python you should install popular packages and libraries such as Numpy and Scipy. This can be done using a package installer - pip which we talk about in another section.
+
+Also, if you want to quit Python from the terminal window. Use exit() or Ctrl-D
+
+GET PIP!
+As you already know by now, macOS comes with Python pre-installed so there is a very high probability of your machine already possessing the pip capabilities. Try running the verify pip version command below directly. However, just in case it's not, below is the installation steps.
+
+Installation
+
+In your terminal window, run the following command:
+
+$ get-pip.py
+$ sudo python get-pip.py
+To verify pip version/ installation, run the following command:
+
+$ pip --version
+Now if you see a version, pip was successfully installed.
+
+Using pip
+
+pip is a package manager for Python. It is largely used for installing and upgrading Python packages. Here are the basic pip commands you'll ever need. Run them in your terminal window.
+
+Installing a new Python package:
+
+$ pip3 install <package>
+Upgrading an existing Python package:
+
+$ pip3 install --upgrade <package>
+See what's already installed:
+
+$ pip3 freeze
+Uninstall a package
+
+$ pip3 uninstall <package>
+
+NUMPY-SCIPY-MATPLOTLIB
+The Numpy, Scipy and Matplotlib scientific libraries for Python. They are sometimes a little tricky to install from source because they have dependencies they need to build correctly. However, pip makes it super easy for us to install all of these. Just grab and run the code below to install numpy, scipy and matplotlib in your terminal window:
+
+pip3 install numpy
+pip3 install matplotlib
+pip3 install scipy
+You can use the same code for installing the other part of the stack or different libraries such as pandas.
+
+That's it! Now you are all set to rock the Python world.
+
+GET AN IDE!
+Now, I got Python. I got pip. What's this IDE?
+
+IDE stands for Integrated Development Environment.
+
+In simple terms, IDE is a form a terminal window that's just made for running Python and comes with a lot of bells and whistles for it.
+
+The one that I am going to install for you is quite the vanilla flavor of the Python IDE world and if you are(or want to be) an advanced user of Python I recommend you explore additional IDE kernels. However, for now lets get started with Jupyter.
+
+ Jupyter is an improved Python shell than the one you get from running $ python in the command-line. It has many cool functions such as copy & paste, redo/undo, creating charts in-line etc. You can find all the details on them in the documentation. 
+
+But, wait... isnt all of this becoming too complicated? Should I really be installing all of this?
+
+Don't you worry. We have got you covered for this.
+
+Test drive Jupyter here. No installation needed. All features available. All within your browser.
+
+But, if we impress you. Go ahead and install this key Python tool.
+
+Installation
+
+Installing Jupyter using pip is very simple. Just run the following command in your terminal:
+
+$ pip3 install jupyter
+That's it! No, seriously that's it.
+
+Now you are up and running with your new IDE, Jupyter notebook and all the packages. 
+
+
+
