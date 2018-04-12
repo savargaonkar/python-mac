@@ -1,0 +1,18 @@
+Now that you are all set with the new a shiny, new macOS. Let's get downloading!
+Step 1: Xcode
+
+ Xcode is an integrated development environment for macOS containing a suite of software development tools developed by Apple for developing software for macOS, iOS, watchOS and tvOS.
+
+Download and install it from the App Store or from Apple's website.
+
+You can simply go to App Store > Click on search at the top right > Type Xcode > Look for Xcode (Developer tools) > Click and proceed with the installation via Install button.
+
+You can also run:
+
+$ xcode-select --install
+This will allow you to install both Xcode and Xcode command line tools (which btw is not a neccessity).
+
+Step 2: XQuartz (Optional)
+
+XQuartz is Apple's version of the X server, a component of the X Window System for macOS. It is useful for developing software for the macOS, it's available for download here. Also, its free.
+
