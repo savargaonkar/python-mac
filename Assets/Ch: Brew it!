@@ -1,4 +1,4 @@
- Homebrew calls itself The missing package manager for macOS and is an essential tool for any developer.
+Homebrew calls itself The missing package manager for macOS and is an essential tool for any developer.
 
 Installation
 
@@ -15,4 +15,34 @@ Alternatively, we can also insert /usr/local/bin to the first line of /private/e
 To be able to use brew you need to start a new terminal session. Do this by opening a new terminal tab with Cmd+T (you should also close the old one), then run the following command to make sure everything is working:
 
 $ brew doctor
- 
+
+USING HOMEBREW
+To install a package (or Formula in Homebrew vocabulary) simply type:
+
+$ brew install <formula>
+To update Homebrew's directory of formulae, run:
+
+$ brew update
+Homebrew keeps older versions of packages installed, in case you want to roll back. That rarely is necessary, so you can do some cleanup to get rid of those old versions:
+
+$ brew cleanup
+To see what you have installed (with their version numbers):
+
+$ brew list --versions
+
+PYTHON WITH HOME BREW
+To install Python 2.7 plus any dependencies required (it can take a few minutes to build everything) just run the following in your terminal window (always without the $, your default terminal window will always start with the following username$ ):
+
+$ brew install python
+When finished, you should see a summary in the terminal. 
+
+Plus running this line: $ which python should output : /usr/local/bin/python.
+
+It also installs pip (and its dependency Setuptools), which is the package manager for Python. 
+
+Finally, let's get them upgraded. Run both the lines:
+
+$ pip install --upgrade setuptools
+$ pip install --upgrade pip
+Executable scripts from Python packages you install will be put in /usr/local/share/python, we already had this in the Env.sh file created before. Save the file and open a new terminal to take the new $PATH into account (everytime you open a terminal, .bash_profile gets loaded).
+
